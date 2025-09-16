@@ -57,7 +57,7 @@ cd django-resume
 ```bash
 python3 manage.py runserver
 ```
-3. **Open the resume app in your browser at `http://127.0.0.1:8000/resume`
+3. **Open the resume app in your browser at `http://127.0.0.1:8000/resume`**
 ---
 
 ## Notes
