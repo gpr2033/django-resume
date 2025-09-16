@@ -1,10 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Hello World</title>
+  <meta charset="UTF-8">
+  <title>Gaurav Rane - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.5;
+    }
+    h1, h2 {
+      border-bottom: 1px solid #000;
+      padding-bottom: 4px;
+      margin-top: 30px;
+    }
+    h1 {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .contact {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 25px;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    .subheading {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+    .subdetails {
+      display: flex;
+      justify-content: space-between;
+      font-style: italic;
+      font-size: 14px;
+    }
+    section {
+      margin-bottom: 25px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+
+  <h1>Gaurav Rane</h1>
+  <div class="contact">
+    +91-9892728211 / +1-646-410-8567 |
+    <a href="mailto:gaurav.rane1209@gmail.com">gaurav.rane1209@gmail.com</a> |
+    <a href="https://linkedin.com/in/gaurav-rane1209/">linkedin.com/in/gaurav-rane1209</a> |
+    <a href="https://github.com/gRevolut1on">github.com/gRevolut1on</a>
+  </div>
+
+  <section>
+    <h2>Education</h2>
+    <div class = "subheading">
+        <span>New York University</span>
+        <span>Tandon School of Engineering, Brooklyn</span>
+    </div>
+    <div class = "subdetails">
+        <span>Master of Science in Computer Science</span>
+        <span>Aug. 2025 – May 2027</span>
+    </div>
+    <div class="subheading">
+      <span>Birla Institute of Technology and Science, Pilani</span>
+      <span>KK Birla Goa Campus, Goa</span>
+    </div>
+    <div class="subdetails">
+      <span>Bachelor of Engineering in Electrical and Electronics Engineering</span>
+      <span>Aug. 2018 – May 2022</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div>
+      <div class="subheading">
+        <span>Product Engineer</span>
+        <span>Jun. 2023 – Jun. 2025</span>
+      </div>
+      <div class="subdetails">
+        <span>InstaSafe Technologies</span>
+        <span>Bangalore, Karnataka</span>
+      </div>
+      <ul>
+        <li>Developed backend services for SaaS products, implementing <b>zero-trust contextual application access</b> through <b>software-defined networking</b>, and <b>identity management</b> and <b>authentication mechanisms</b>.</li>
+        <li>Engineered and managed integrations with Active Directory, Microsoft Azure, and LDAP-based identity providers.</li>
+        <li>Implemented end-to-end <b>self-service password reset</b> services with customizable <b>multi-factor authentication</b> policies.</li>
+        <li>Designed and implemented enterprise-level <b>browser-based controls</b> for <b>secure browsing</b> and <b>data loss prevention</b>, as well as <b>OS-level multi-factor authentication</b> solutions.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="subheading">
+        <span>Privacy Engineer</span>
+        <span>Feb. 2022 – Apr. 2023</span>
+      </div>
+      <div class="subdetails">
+        <span>Disecto Technologies</span>
+        <span>Remote</span>
+      </div>
+      <ul>
+        <li>Led a government-funded research project on <b>lattice-based</b> and <b>homomorphic encryption</b>, and their applications in <b>secure multiparty computation</b>.</li>
+        <li>Developed a platform for detecting <b>Personally Identifiable Information (PIIs)</b> in SQL-based databases.</li>
+        <li>Designed and implemented <b>remediation</b> options for detected PIIs enforced by international and regional compliance regulations.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="subheading">
+        <span>Cybersecurity Intern - IoT</span>
+        <span>Aug. 2021 – Dec. 2021</span>
+      </div>
+      <div class="subdetails">
+        <span>Siemens Advanta</span>
+        <span>Remote</span>
+      </div>
+      <ul>
+        <li>Performed vulnerability assessment and penetration testing of Internet of Things (IoT) products.</li>
+        <li>Identified multiple critical vulnerabilities before release, prompting a division-wide VAPT policy.</li>
+        <li>Wrote an undergraduate thesis based on methodology and results from the internship.</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="subheading">
+        <span>Software Developer Intern</span>
+        <span>Jun. 2021 – Jul. 2021</span>
+      </div>
+      <div class="subdetails">
+        <span>National Critical Information Infrastructure Protection Centre (NCIIPC)</span>
+        <span>Remote</span>
+      </div>
+      <ul>
+        <li>Developed and maintained an open-source auditing tool for hardening <b>security of industrial HMI and SCADA systems</b>, used by public sector industries and Govt. of India stakeholders.</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><b>Languages:</b> Golang, Python, Java, C++, Javascript/Typescript</li>
+      <li><b>Frameworks:</b> gin-gonic, walk, wails, django, flask, node.js</li>
+      <li><b>Developer Tools:</b> Git, Docker, MongoDB, Clickhouse, Wireguard, Amazon SQS, Apache Guacamole, WiX</li>
+      <li><b>Skills:</b> Network Engineering, Cryptography, VAPT, Microservices, Browser Extensions, OS Authentication Modules, REST APIs</li>
+    </ul>
+  </section>
+
+  <section>
+  <h2>Academic Projects</h2>
+
+  <div>
+    <div class="subheading">
+      <span>Applications of PUFs in UAV Network Security</span>
+    </div>
+    <ul>
+      <li>Design-oriented undergraduate project researching applications of Physical Unclonable Functions (PUFs) for <b>hardware-based identification</b> for drone and UAV authentication.</li>
+      <li>Developed a <b>client-server model for authentication</b> based on hardware fingerprinting.</li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="subheading">
+      <span>Topology Poisoning in Software-Defined Networks</span>
+    </div>
+    <ul>
+      <li>Study-oriented undergraduate project researching vulnerabilities in <b>OpenFlow-based networks</b>, particularly those related to <b>topology tampering</b>.</li>
+    </ul>
+  </div>
+  </section>
+
+<section>
+<h2>Extracurriculars</h2>
+<div class="subheading">
+<span>Chief Coordinator</span>
+<span>May 2020 – Jun. 2021</span>
+</div>
+<div class="subdetails">
+<span>BITSKrieg Cybersecurity Club</span>
+<span>BITS Pilani, Goa</span>
+</div>
+</section>
 </body>
-</html>
